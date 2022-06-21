@@ -1,94 +1,55 @@
-function oneThroughTwenty() {
-    
-   /* Your code goes below
-   Write a for or a while loop
-   return the result*/
-    
+//exercicio 1
+for (let A = 1; A <= 20; A++){
+    console.log(A)
 }
 
-//call function oneThroughTwenty
-
-function evensToTwenty() {
-    
-   /* Your code goes below
-   Write a for or a while loop
-   return the result */
-  
+//exercicio 2
+for (let B = 2; B <= 20 ; B += 2){
+    console.log(B)
 }
 
-//call function evensToTwenty
-
-function oddsToTwenty() {
-    
-  /* Your code goes below
-  Write a for or a while loop
-  return the result */
-   
+//exercicio 3
+for(let C = 1; C <= 20; C += 2){
+    console.log(C)
 }
 
-//call function oddsToTwenty
-
-function multiplesOfFive() {
-    
-  /* Your code goes below
-  Write a for or a while loop
-  return the result */
-
+//exercicio 4
+for(let D = 5; D <= 100; D += 5){
+    console.log(D)
 }
 
-//call function multiplesOfFive
-
-function squareNumbers() {
-    
- /* Your code goes below
-  Write a for or a while loop
-  return the result */
-    
+//exercicio 5
+for(let E = 1; E <= 100; E++){
+    if(E ** 0.5 % 1 == 0){
+        console.log(E)
+    }
 }
 
-//call function squareNumbers
-
-function countingBackwards() {
-    
-  /* Your code goes below
-  Write a for or a while loop
-  return the result */
+//exercicio 6
+for(let F = 20; F >= 1; F--){
+    console.log(F)
 }
 
-//call function countingBackwards
-
-function evenNumbersBackwards() {
-    
- /* Your code goes below
-  Write a for or a while loop
-  return the result */
+//exercicio 7
+for(let G = 20; G >= 2; G -= 2){
+    console.log(G)
 }
 
-//call function evenNumbersBackwards
-
-function oddNumbersBackwards() {
-    
- /* Your code goes below
-  Write a for or a while loop
-  return the result */
+//exercicio 8
+for(let H = 19; H >= 1; H -= 2){
+    console.log(H)
 }
 
-//call function oddNumbersBackwards
-
-function multiplesOfFiveBackwards() {
-    
- /* Your code goes below
-  Write a for or a while loop
-  return the result */
+//exercicio 9
+for(let I = 100; I >= 5; I -=5){
+    console.log(I)
 }
 
-//call function multiplesOfFiveBackwards
 
-function squareNumbersBackwards() {
-    
-   /* Your code goes below
-  Write a for or a while loop
-  return the result */
+//exercicio 10
+for(let J = 100; J >= 1; J--){
+    if(J ** 0.5 % 1 == 0){
+        console.log(J)
+    }
+
 }
-
-//call function squareNumbersBackwards
